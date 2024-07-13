@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "TagLib",
             cxxSettings: [
-                .unsafeFlags(["-std=gnu++2b"]),
+                .unsafeFlags(["--std=gnu++2b"]),
             ],
             swiftSettings: [
                 .interoperabilityMode(.Cxx),
