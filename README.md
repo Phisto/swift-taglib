@@ -1,6 +1,6 @@
 [![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-green?style=flat)](https://img.shields.io/badge/Swift_Package_Manager-compatible-green?style=flat)
 [![Platforms](https://img.shields.io/badge/Platforms-macOS-green?style=flat)](https://img.shields.io/badge/Platforms-macOS-Green?style=flat)
-[![License](https://img.shields.io/github/license/Phisto/TagLibSPM.svg?style=flat)](https://github.com/Phisto/TagLibSPM)
+[![License](https://img.shields.io/github/license/Phisto/swift-taglib.svg?style=flat)](https://github.com/Phisto/swift-taglib)
 
 # swift-taglib
 
