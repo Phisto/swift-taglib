@@ -3,44 +3,39 @@
 
 ## Overview
 
-This is a mirror of the [TagLib](https://taglib.org/) 1.12 source and will build a dynamic framework for macOS.
-
-It is slightly tuned to address some XCode warnings and uses the project settings recommended by XCode.
-
+This is a mirror of the [TagLib](https://taglib.org/) 2.01 source modified to make it available as a library via [Swift Package Manager](https://www.swift.org/package-manager/). It uses the [utfccp 4.0.5](https://github.com/nemtrif/utfcpp) library for utf8 string handling. 
 
 ## Requirements
 
-- macOS 10.10+
-- Xcode 14.0.1+
+- Xcode 15.4+
+- swift-tools-version: 5.9+
 
+TagLib library   | macOS  |  iOS   |  tvOS
+-----------------|--------|--------|--------
+2.0.1            | 10.13+ |    -   |    -
 
 ## Installation
 
-### Carthage
+### Swift Package Manager
 
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate LAME into your Xcode project using Carthage, specify it in your `Cartfile`:
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
 
-```ogdl
-github "Phisto/TagLib" ~> 1.0
+Once you have your Swift package set up, adding TagLib as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+.package(url: "https://github.com/Phisto/swift-taglib.git", .upToNextMajor(from: "2.0.1"))
+]
 ```
-
-### Manually
-
-If you prefer not to use Carthage, you can integrate TagLib into your project manually.
-You need to build and add the TagLib framework (TagLib.framework) to your project yourself. 
-
 
 ## Usage
 
 See the online  [API documentation ](https://taglib.org/api/) of the TagLib project.
 
-
 ## Updating
 
-To update to the newest TagLib version download the lates source from [taglib.org](https://taglib.org/), and replace the taglib-src folder in the project with the one in the downloaded source folder.
-
+To update to the newest TagLib version download the lates source from [taglib.org](https://taglib.org/), replace the content of the taglib source folder with the updated source and copy all headers to the include source folder.
 
 ## License
 
 TagLib is released under the [GNU Lesser General Public License (LGPL)](https://www.gnu.org/licenses/). 
-
