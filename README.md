@@ -1,9 +1,9 @@
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/github/license/Phisto/TagLib.svg)](https://github.com/Phisto/TagLib)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)](https://img.shields.io/badge/Swift_Package_Manager-compatible-orange?style=flat-square)
+[![License](https://img.shields.io/github/license/Phisto/TagLibSPM.svg)](https://github.com/Phisto/TagLibSPM)
 
-## Overview
+# swift-taglib
 
-This is a mirror of the [TagLib](https://taglib.org/) 2.01 source modified to make it available as a library via [Swift Package Manager](https://www.swift.org/package-manager/). It uses the [utfccp 4.0.5](https://github.com/nemtrif/utfcpp) library for utf8 string handling. 
+This is a mirror of the [TagLib](https://taglib.org/) 2.0.1 source modified to make it available as a library via [Swift Package Manager](https://www.swift.org/package-manager/). It uses the [utfccp 4.0.5](https://github.com/nemtrif/utfcpp) library for utf8 string handling. 
 
 ## Requirements
 
