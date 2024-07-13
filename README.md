@@ -10,6 +10,7 @@ This is a mirror of the [TagLib](https://taglib.org/) 2.0.1 source modified to m
 
 - Xcode 15.4+
 - swift-tools-version: 5.9+
+- C++ Language Dialect: -std=gnu++2b
 
 TagLib library   | macOS  |  iOS   |  tvOS
 -----------------|--------|--------|--------
@@ -28,6 +29,8 @@ dependencies: [
 .package(url: "https://github.com/Phisto/swift-taglib.git", .upToNextMajor(from: "2.0.1"))
 ]
 ```
+
+### In your project that uses the package, set your the used C++ Language Dialect to -std=gnu++2b.
 
 ## Usage
 
