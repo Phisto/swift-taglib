@@ -1,6 +1,0 @@
-module TagLib {
-    umbrella header "TagLibUmbrella.h"
-  
-    export *
-    module * { export * }
-}
