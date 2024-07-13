@@ -1,0 +1,3 @@
+framework module TagLib {
+  umbrella header "TagLibUmbrella.h"
+}
