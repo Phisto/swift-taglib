@@ -1,10 +1,4 @@
 module TagLib {
     umbrella header "TagLibUmbrella.h"
-  
     export *
-}
-
-module TagLib {
-umbrella header "/Users/simongaus/Documents/XCode/Frameworks/swift-taglib/Sources/TagLib/include/TagLib.h"
-export *
 }
