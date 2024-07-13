@@ -37,14 +37,14 @@
 #include "id3v2footer.h"
 #include "id3v2synchdata.h"
 #include "id3v1genres.h"
-#include "frames/attachedpictureframe.h"
-#include "frames/generalencapsulatedobjectframe.h"
-#include "frames/textidentificationframe.h"
-#include "frames/commentsframe.h"
-#include "frames/urllinkframe.h"
-#include "frames/uniquefileidentifierframe.h"
-#include "frames/unsynchronizedlyricsframe.h"
-#include "frames/unknownframe.h"
+#include "attachedpictureframe.h"
+#include "generalencapsulatedobjectframe.h"
+#include "textidentificationframe.h"
+#include "commentsframe.h"
+#include "urllinkframe.h"
+#include "uniquefileidentifierframe.h"
+#include "unsynchronizedlyricsframe.h"
+#include "unknownframe.h"
 
 using namespace TagLib;
 using namespace ID3v2;

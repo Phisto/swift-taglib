@@ -34,8 +34,8 @@
 #include "tpropertymap.h"
 #include "id3v2tag.h"
 #include "id3v2synchdata.h"
-#include "frames/textidentificationframe.h"
-#include "frames/unknownframe.h"
+#include "textidentificationframe.h"
+#include "unknownframe.h"
 
 using namespace TagLib;
 using namespace ID3v2;
