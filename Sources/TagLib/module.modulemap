@@ -1,5 +1,5 @@
-framework module TagLib {
-    umbrella header "include/TagLibUmbrella.h"
+module TagLib {
+    umbrella header "TagLibUmbrella.h"
   
     export *
     module * { export * }
