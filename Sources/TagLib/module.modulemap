@@ -1,3 +1,6 @@
 framework module TagLib {
-  umbrella header "TagLibUmbrella.h"
+    umbrella header "include/TagLibUmbrella.h"
+  
+    export *
+    module * { export * }
 }

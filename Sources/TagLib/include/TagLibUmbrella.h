@@ -23,6 +23,13 @@
  *   http://www.mozilla.org/MPL/                                           *
  ***************************************************************************/
 
+/*
+ //! Project version number for TagLib.
+ FOUNDATION_EXPORT double TagLibVersionNumber;
+
+ //! Project version string for TagLib.
+ FOUNDATION_EXPORT const unsigned char TagLibVersionString[];
+ */
 
 // taglib
 #include "audioproperties.h"
