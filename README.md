@@ -31,7 +31,7 @@ dependencies: [
 ]
 ```
 
-### In your project that uses the package, set your the used C++ Language Dialect to -std=gnu++2b.
+  > **In your project that uses the package, set the used C++ Language Dialect to `-std=gnu++2b`.**
 
 ## Usage
 
