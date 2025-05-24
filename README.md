@@ -4,17 +4,18 @@
 
 # swift-taglib
 
-This is a mirror of the [TagLib](https://taglib.org/) 2.0.1 source modified to make it available as a library via [Swift Package Manager](https://www.swift.org/package-manager/). It uses the [utfccp 4.0.5](https://github.com/nemtrif/utfcpp) library for utf8 string handling. 
+This is a mirror of the [TagLib](https://taglib.org/) 2.0.2 source modified to make it available as a library via [Swift Package Manager](https://www.swift.org/package-manager/). It uses the [utfccp 4.0.6](https://github.com/nemtrif/utfcpp) library for utf8 string handling. 
 
 ## Requirements
 
-- Xcode 15.4+
-- swift-tools-version: 5.9+
+- Xcode 16.3+
+- swift-tools-version: 6.1+
 - C++ Language Dialect: -std=gnu++2b
 
 TagLib library   | macOS  |  iOS   |  tvOS
 -----------------|--------|--------|--------
 2.0.1            | 10.13+ |    -   |    -
+2.0.2            | 10.13+ |    -   |    -
 
 ## Installation
 
@@ -26,7 +27,7 @@ Once you have your Swift package set up, adding TagLib as a dependency is as eas
 
 ```swift
 dependencies: [
-.package(url: "https://github.com/Phisto/swift-taglib.git", .upToNextMajor(from: "2.0.1"))
+.package(url: "https://github.com/Phisto/swift-taglib.git", .upToNextMajor(from: "2.0.2"))
 ]
 ```
 
@@ -42,4 +43,5 @@ To update to the newest TagLib version download the lates source from [taglib.or
 
 ## License
 
-TagLib is released under the [GNU Lesser General Public License (LGPL)](https://www.gnu.org/licenses/). 
+TagLib is released under the [**GNU Lesser General Public License v3.0**](./LICENSE)
+UTF8-CPP is released under the [**Boost Software License v1.0**](./Sources/utf8/LICENSE)
