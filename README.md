@@ -43,5 +43,5 @@ To update to the newest TagLib version download the lates source from [taglib.or
 
 ## License
 
-TagLib is released under the [**GNU Lesser General Public License v3.0**](./LICENSE)
-UTF8-CPP is released under the [**Boost Software License v1.0**](./Sources/utf8/LICENSE)
+TagLib is released under the [**GNU Lesser General Public License v3.0**](./LICENSE).
+UTF8-CPP is released under the [**Boost Software License v1.0**](./Sources/utf8/LICENSE).
